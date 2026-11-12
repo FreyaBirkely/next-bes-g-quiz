@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Redaction+50:ital,wght@0,400;0,700;1,400&family=Vidaloka&display=swap');
+
+* {
+    font-family: "Redaction 50", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: papayawhip;
+}
+
+.container {
+    background-image: linear-gradient(rgb(255, 93, 214), rgb(252, 151, 255));
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 1em;
+}
+
+/* .hide {
+    display: none;
+} */
+
+
+
+
+/* kun style intet vigtigt */
+
+.question__title {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    font-weight: bold;
+    color: hotpink;
+}
+
+.question__ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1em;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+.question__btn {
+    display: flex;
+    margin: 0 auto;
+    padding: 1em;
+    border-radius: 2em;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    border: 3px solid white;
+}
+
+.question__h2 {
+    text-align: center;
+    margin: 1em 0;
+    font-size: 30px;
+    color: white;
+}
+
+.pink {
+    background-color: pink;
+    color: hotpink;
+    border: none;
+}
+
+.red {
+    background-color: red;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    border: none;
+}
+
+/* .big {
+    padding: 1em;
+    font-size: 20px;
+} */
